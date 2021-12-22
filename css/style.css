@@ -1033,6 +1033,10 @@ main .title_box .main_title_sub {
     margin-right: 30px;
 }
 
+.sec_4 .popup_btm .top .detail p{
+    margin-bottom: 10px;
+}
+
 .sec_4 .popup_box.drbro .popup_btm .detail:last-child .color:first-child div{
     background-color:#00358D;
 }
