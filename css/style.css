@@ -6,7 +6,7 @@
 
 body{
     color:#2e2a3d;
-    font-family: "G마켓 산스 TTF";
+    font-family: "G마켓 산스 TTF","210 마마블럭";
 }
 
 ul,
@@ -42,6 +42,7 @@ h3.title {
     display: inline-block;
     font-size: 70px;
     font-family: "210 마마블럭";
+    font-weight: 800;
     background-color: white;
     border: 3px solid #2e2a3d;
     border-radius: 20px;
@@ -124,6 +125,7 @@ header .menu_wrap li {
     text-align: right;
     font-size: 30px;
     font-family: "210 마마블럭";
+    font-weight: 800;
     color: #2e2a3d;
     transition: all 0.4s;
 }
@@ -504,6 +506,7 @@ main .title_box .main_title_sub {
     text-align: center;
     font-size: 41px;
     font-family: "210 마마블럭";
+    font-weight: 900;
     letter-spacing: 1.5px;
     position: relative;
     left:50%;
@@ -555,6 +558,7 @@ main .title_box .main_title_sub {
     display: inline-block;
     font-size: 30px;
     font-family: "210 마마블럭";
+    font-weight: 700;
     background-color: #FCAC38;
     border: 3px solid #2e2a3d;
     border-radius: 30px;
@@ -686,12 +690,12 @@ main .title_box .main_title_sub {
     color: #fff;
 }
 
-.sec_4 .archieve_wrap .web_title_wrap span {
+.sec_4 .archieve_wrap .web_title span {
     display: block;
     font-size: 18px;
     color: #fff;
     line-height: 33px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .sec_4 .archieve_wrap .track_box {
@@ -1177,6 +1181,7 @@ main .title_box .main_title_sub {
     display: inline-block;
     font-size: 30px;
     font-family: "210 마마블럭";
+    font-weight: 700;
     background-color: #FCAC38;
     border: 3px solid #2e2a3d;
     border-radius: 30px;
@@ -1187,7 +1192,7 @@ main .title_box .main_title_sub {
     padding: 25px 45px;
     font-size: 18px;
     line-height: 30px;
-    font-weight: 200;
+    font-weight: 100;
     background-color: #fff;
     border: 3px solid #2e2a3d;
     border-radius: 30px;
@@ -1223,7 +1228,7 @@ footer .footer_wrap{
 footer .footer_wrap p{
     color:#fff;
     text-align: center;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 footer .footer_wrap .closing{
@@ -1250,7 +1255,7 @@ footer .footer_wrap .contact{
 footer .footer_wrap .contact span{
     color:#fff;
     font-size:20px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 footer .footer_wrap .contact p{
