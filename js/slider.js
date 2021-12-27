@@ -23,13 +23,14 @@ $(document).ready(function () {
         df = parseInt(df);
         var idxIndicator = $(this).attr("data-idx");
         $(".web_title h5").eq(idxIndicator).fadeIn(400).siblings().fadeOut(400);
+        var isAnim = $(".track_box").is(":animated");
         
-        if (idx === 3) {
-        console.log("lalala");
+        if (idx === 3 && !isAnim) {
 
             for (i = 0; i < sliderLen; i++) {
                 var num = idx % sliderLen
                 $(".track_box > div").eq(i).removeClass(sliderList[i]);
+
                 if (num <= 0) {
                     $(".track_box > div").eq(num).addClass(sliderList[sliderLen - 1])
                 } else {
@@ -46,11 +47,12 @@ $(document).ready(function () {
                 $(".track_box > div").eq(4).removeClass("prv").addClass("right");
                 $(".track_box").css("left", df)
             })
-        } else if (idx === 1){
+        } else if (idx === 1 && !isAnim){
             for (i = 0; i < sliderLen; i++) {
                 var num = idx % sliderLen
                 $(".track_box > div").eq(i).removeClass(sliderList[i]);
-                if (num <= 0) {
+
+                if (num >= 4) {
                     $(".track_box > div").eq(num).addClass(sliderList[sliderLen + 1])
                 } else {
                     $(".track_box > div").eq(num).addClass(sliderList[num + 1])

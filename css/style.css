@@ -527,6 +527,7 @@ main .title_box .main_title_sub {
 
 .sec_1 .profile_text p{
     font-size: 20px;
+    font-weight: 300;
     text-align: center;
     line-height: 30px;
 }
@@ -558,7 +559,7 @@ main .title_box .main_title_sub {
     display: inline-block;
     font-size: 30px;
     font-family: "210 마마블럭";
-    font-weight: 700;
+    font-weight: 800;
     background-color: #FCAC38;
     border: 3px solid #2e2a3d;
     border-radius: 30px;
@@ -567,7 +568,7 @@ main .title_box .main_title_sub {
 .sec_2 .info_box .info_text {
     font-size: 23px;
     line-height: 30px;
-    font-weight: 300;
+    font-weight: 100;
     padding: 20px 20px 10px 20px;
     background-color: white;
     border: 3px solid #2e2a3d;
@@ -576,7 +577,7 @@ main .title_box .main_title_sub {
 
 .sec_2 .info_box .info_text span {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .sec_2 .info_wrap .left_box {
@@ -862,14 +863,14 @@ main .title_box .main_title_sub {
 
 .sec_4 .popup_top .project h3{
     font-size:25px;
-    font-weight: 500;
+    font-weight: 300;
     color:#fff;
     margin-bottom: 15px;
 }
 
 .sec_4 .popup_top .project span{
     display: block;
-    font-weight: 300;
+    font-weight: 100;
     font-size:18px;
     color:#fff;
 }
@@ -877,6 +878,7 @@ main .title_box .main_title_sub {
 .sec_4 .popup_top .project p{
     width: 280px;
     font-size:13px;
+    font-weight: 100;
     line-height: 18px;
     color: rgba(255,255,255,0.5);
 }
@@ -894,7 +896,7 @@ main .title_box .main_title_sub {
 .sec_4 .popup_top .project_info span{
     font-size:15px;
     color:#fff;
-    font-weight: 500;
+    font-weight: 300;
     margin-right: 20px;
 }
 
@@ -980,6 +982,7 @@ main .title_box .main_title_sub {
 
 .sec_4 .popup_btm h4{
     font-size:15px;
+    font-weight: 500;
     border:2px solid #2e2a3d;
     box-sizing: border-box;
     padding: 5px 12px;
@@ -1015,6 +1018,7 @@ main .title_box .main_title_sub {
     width: 40%;
     margin-right: 20px;
     font-size:15px;
+    font-weight: 100;
 }
 
 .sec_4 .popup_btm .detail:nth-child(2n){
@@ -1141,7 +1145,6 @@ main .title_box .main_title_sub {
     z-index: 1;
     transition:all 0.5s;
 }
-
 
 .sec_5 .illust_box:last-child .img{
     background-color: #000;
