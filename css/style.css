@@ -6,7 +6,7 @@
 
 body{
     color:#2e2a3d;
-    font-family: "G마켓 산스 TTF","210 마마블럭";
+    font-family: "G마켓 산스 TTF";
 }
 
 ul,
@@ -184,7 +184,7 @@ header .menu_wrap.change li:before{
 
 main {
     width: 100%;
-    padding: 280px 0px;
+    padding: 200px 0px;
     background-color: #FBC82E;
     background-image: url(../img/tile_pttn1.png);
     background-repeat: repeat;
@@ -192,9 +192,16 @@ main {
 
 main .title_box {
     width: 650px;
-    height: 200px;
+    height: 300px;
     margin: 0px auto;
     position: relative;
+}
+
+main .title_box .main_title_top{
+    font-size:45px;
+    margin-bottom: 40px;
+    font-family: "210 마마블럭";
+    font-weight: 800;
 }
 
 main .title_box .main_title_wrap {
@@ -287,7 +294,7 @@ main .title_box .star_box .star2 {
 main .title_box .main_title_sub {
     width: 100%;
     height: 85px;
-    margin-left: 300px;
+    margin-left: 400px;
     background-image: url(../img/main_title_sub.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -1128,7 +1135,7 @@ main .title_box .main_title_sub {
 }
 
 .sec_5 .illust_box:nth-child(2),
-.sec_5 .illust_box:last-child {
+.sec_5 .illust_box:nth-child(4) {
     flex-direction: row-reverse;
 }
 
@@ -1146,12 +1153,12 @@ main .title_box .main_title_sub {
     transition:all 0.5s;
 }
 
-.sec_5 .illust_box:last-child .img{
+.sec_5 .illust_box:first-child .img{
     background-color: #000;
     transition: all 0.6s linear;
 }
 
-.sec_5 .illust_box:last-child .view_btn{
+.sec_5 .illust_box:first-child .view_btn{
     font-size: 15px;
     text-align: center;
     color: #fff;
@@ -1166,11 +1173,11 @@ main .title_box .main_title_sub {
     transition-duration: 0.3s;
 }
 
-.sec_5 .illust_box:last-child .img:hover img{
+.sec_5 .illust_box:first-child .img:hover img{
     opacity: 0.3;
 }
 
-.sec_5 .illust_box:last-child .img:hover .view_btn{
+.sec_5 .illust_box:first-child .img:hover .view_btn{
     opacity: 1;
 }
 
@@ -1206,12 +1213,13 @@ main .title_box .main_title_sub {
 }
 
 .sec_5 .illust_box:first-child .text_box,
-.sec_5 .illust_box:nth-child(3) .text_box {
+.sec_5 .illust_box:nth-child(3) .text_box,
+.sec_5 .illust_box:last-child .text_box {
     margin-left: 90px;
 }
 
 .sec_5 .illust_box:nth-child(2) .text_box,
-.sec_5 .illust_box:last-child .text_box {
+.sec_5 .illust_box:nth-child(4) .text_box {
     margin-right: 150px;
 }
 
