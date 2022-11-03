@@ -45,8 +45,44 @@
         font-weight: 800;
         text-transform: uppercase;
         text-align: center;
+        /* transition-duration: 0.5s; */
+        background-image: url(../img/underline-short.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: relative;
+    }
+
+    header>.inner>.menu-wrap>li>a{
+        position: relative;
+        z-index: 1000;
+    }
+
+    header>.inner>.menu-wrap>li>span{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0px;
+        right: 0px;
         transition-duration: 0.5s;
     }
+    
+    header>.inner>.menu-wrap>li:hover>span{
+        width: 0%;
+    }
+    
+    header>.inner>.menu-wrap>li.active>span{
+        width: 0%;
+    }
+
+    /* header>.inner>.menu-wrap>li.active{
+        background-image: url(../img/underline-short.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    } */
 
     header>.inner>.menu-wrap>li:last-child{
         margin-right: 0px;
@@ -55,6 +91,7 @@
     header>.inner>.menu-wrap>.logo{
         width: 80px;
         height: 80px;
+        background-image: unset;
     }
 
     header>.inner>.menu-wrap>.logo>a{
@@ -86,41 +123,6 @@
     main>.sec01>.cont-wrap>.main-text{
         font-size: 80px;
         line-height: 140px;
-    }
-
-    main>.sec01>.cont-wrap>.main-text>span{
-        display: block;
-        overflow: hidden;
-    }
-
-    main>.sec01>.cont-wrap>.main-text>.name{
-        position: relative;
-        display: inline-block;
-    }
-
-    main>.sec01>.cont-wrap>.main-text>.name>p{
-        position: relative;
-        z-index: 1000;
-    }
-
-    main>.sec01>.cont-wrap>.main-text>.name>svg{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        z-index: 500;
-    }
-
-    main>.sec01>.cont-wrap>.main-text>.name>svg .svg-elem-1 {
-        stroke-dashoffset: 1231.7464599609375px;
-        stroke-dasharray: 1231.7464599609375px;
-        transition: stroke-dashoffset 1.5s ease-out 0s;
-    }
-  
-    main>.sec01>.cont-wrap>.main-text>.name>svg.active .svg-elem-1 {
-        stroke-dashoffset: 0;
     }
   
     main>.sec01>.cont-wrap>.img-box{
@@ -184,7 +186,7 @@
     
     main>.sec02>.inner>.cont-wrap>.info-cont{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     main>.sec02>.inner>.cont-wrap>.info-cont>.left{
@@ -209,27 +211,37 @@
         left: 25px;
     }
 
-    main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li{
-        margin-bottom: 60px;
-    }
-
-    main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.period{
-        font-size: 24px;
-        line-height: 34px;
+    main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.period{
         margin-right: 40px;
     }
 
-    main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.period{
-        width: 220px;
+    main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.period>li{
+        font-size: 24px;
+        line-height: 34px;
+        margin-right: 40px;
+        margin-bottom: 8px;
     }
 
-    main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.info>h4{
+    main>.sec02>.inner>.cont-wrap>.info-cont>.left>.card>.history>.period>li,
+    main>.sec02>.inner>.cont-wrap>.info-cont>.right>.card>.history>.period>li:last-child{
+        height: 102px;
+    }
+
+    main>.sec02>.inner>.cont-wrap>.info-cont>.left>.card>.history>.period>li:nth-child(3){
+        height: 132px;
+    }
+
+    main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.experience>li{
+        margin-bottom: 8px;
+    }
+
+    main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.experience>li>h4{
         font-size: 28px;
         line-height: 34px;
         margin-bottom: 8px;
     }
     
-    main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.info>p{
+    main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.experience>li>p{
         font-size: 26px;
         line-height: 30px;
     }

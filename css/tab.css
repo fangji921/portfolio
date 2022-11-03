@@ -19,40 +19,10 @@
         padding: 10px 24px;
     }
 
-    header>.inner>.logo{
-        width: 60px;
-        height: 60px;
-    }
-
-    header>.inner>.menu-btn{
-        width: 40px;
-        height: 40px;
-        padding: 5px 2px;
-    }
-
-    header>.inner>.menu-btn>span{
-        width: 34px;
-        height: 4px;
-        margin-bottom: 9px;
-    }
-
-    header>.inner>.menu-btn>span:nth-child(2){
-        width: 28px;
-    }
-
-
-    header>.inner>.menu-btn.btn_on span:first-child{
-        transform: translateY(13px) rotate(135deg);
-    }
-
-    header>.inner>.menu-btn.btn_on span:last-child{
-        transform: translateY(-13px) rotate(-135deg);
-    }
-
     /* header end */
     /* menu-layer start */
 
-    .menu-layer>.menu-wrap>li{
+    .nav-layer>.nav-wrap>li{
         font-size: 40px;
         line-height: 45px;
         margin-bottom: 40px;
@@ -80,7 +50,7 @@
     }
 
     main>.sec01>.cont-wrap>.img-box{
-        width: 376px;
+        width: 320px;
         border: 20px solid #fff;
         box-sizing: border-box;
         box-shadow: 1px 2px 3px rgba(0,0,0,0.25);
@@ -134,47 +104,54 @@
         height: 30px;
         margin-right: 8px;
     }
-
+    
+    main>.sec02>.inner>.cont-wrap>.info-cont .card{
+        /* margin: 0px 30px; */
+        box-sizing: border-box;
+        padding: 40px;
+    }
+    
     main>.sec02>.inner>.cont-wrap>.info-cont>.left,
     main>.sec02>.inner>.cont-wrap>.info-cont>.right>.card:first-child{
         margin-bottom: 80px;
     }
 
-    main>.sec02>.inner>.cont-wrap>.info-cont .card{
-        margin: 0px 30px;
-        box-sizing: border-box;
-        padding: 40px;
-    }
-
     main>.sec02>.inner>.cont-wrap>.info-cont .card>.subtitle{
         height: 50px;
         top: -25px;
-        left: 25px;
+        left: 30px;
     }
 
-    main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li{
-        margin-bottom: 30px;
+    main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.period{
+        margin-right: 40px;
     }
 
-    main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.period{
+    main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.period>li{
         font-size: 20px;
         line-height: 30px;
-        font-family: "Noto Sans KR";
-        margin-right: 30px;
-    }
-
-    main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.period{
-        width: 200px;
-    }
-
-    main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.info>h4{
-        font-size: 24px;
-        line-height: 30px;
-        font-weight: 800;
         margin-bottom: 6px;
     }
 
-    main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.info>p{
+    main>.sec02>.inner>.cont-wrap>.info-cont>.left>.card>.history>.period>li,
+    main>.sec02>.inner>.cont-wrap>.info-cont>.right>.card>.history>.period>li:last-child{
+        height: 86px;
+    }
+
+    main>.sec02>.inner>.cont-wrap>.info-cont>.left>.card>.history>.period>li:nth-child(3){
+        height: 112px;
+    }
+
+    main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.experience>li{
+        margin-bottom: 6px;
+    }
+    
+    main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.experience>li>h4{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 4px;
+    }
+    
+    main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.experience>li>p{
         font-size: 22px;
         line-height: 26px;
     }

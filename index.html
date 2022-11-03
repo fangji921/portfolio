@@ -6,6 +6,7 @@
     <title>Ji Hyeon's Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
+    <link rel="icon" href="img/logo.png">
     <link href="css/default.css" type="text/css" rel="stylesheet">
     <link href="css/tab.css" type="text/css" rel="stylesheet">
     <link href="css/pc.css" type="text/css" rel="stylesheet">
@@ -24,9 +25,11 @@
                 <ul class="menu-wrap pc">
                     <li>
                         <a href="#">about</a>
+                        <span></span>
                     </li>
                     <li>
                         <a href="#">skills</a>
+                        <span></span>
                     </li>
                     <li class="logo">
                         <a href="#">
@@ -35,9 +38,11 @@
                     </li>
                     <li>
                         <a href="#">archive</a>
+                        <span></span>
                     </li>
                     <li>
                         <a href="#">contact</a>
+                        <span></span>
                     </li>
                 </ul>
                 <div class="logo mobile">
@@ -52,8 +57,8 @@
                 </div>
             </div>
         </header>
-        <nav class="menu-layer tab mobile">
-            <ul class="menu-wrap">
+        <nav class="nav-layer tab mobile">
+            <ul class="nav-wrap">
                 <li>
                     <a href="#">about</a>
                 </li>
@@ -131,10 +136,10 @@
                                 </div>
                             </div>
                             <ul class="text-list">
-                                <li><span class="check"></span>섬세하고 꼼꼼한 성격으로 1px의 틀어짐 하나도 놓치지 않습니다.</li>
+                                <li><span class="check"></span>섬세하고 꼼꼼한 성격으로 모든 일을 세심하게 관리합니다.</li>
                                 <li><span class="check"></span>일을 시작하기 전 계획과 우선순위를 미리 정해 처리합니다.</li>
-                                <li><span class="check"></span>더 좋은 결과물을 위해 끈기와 책임감을 가지고 일에 임합니다.</li>
-                                <li><span class="check"></span>도태되지 않기 위해 꾸준한 자기계발을 해 나갑니다.</li>
+                                <li><span class="check"></span>더 좋은 결과물을 얻기 위해 끈기와 책임감을 가지고 일에 임합니다.</li>
+                                <li><span class="check"></span>더 좋은 결과물을 얻기 위해 꾸준한 자기계발을 해 나갑니다.</li>
                                 <li><span class="check"></span>다양한 취미 생활을 통해 배우고 알아가는 행복을 즐깁니다.</li>
                             </ul>
                         </div>
@@ -143,44 +148,45 @@
                                 <div class="card">
                                     <h3 class="subtitle">
                                         <img src="img/subtitle1.png" alt="career" /></h3>
-                                    <ul>
-                                        <li>
-                                            <div class="period">
-                                                <p>2013. 05 - 2013. 07</p>
-                                            </div>
-                                            <div class="info comp">
+                                    <div class="history">
+                                        <ul class="period">
+                                            <li>
+                                                <p>2013.05-2013.07</p>
+                                            </li>
+                                            <li>
+                                                <p>2013.10-2014.09</p>
+                                            </li>
+                                            <li>
+                                                <p>2014.10-2021.11</p>
+                                            </li>
+                                            <li>
+                                                <p>2022.04-2022.10</p>
+                                            </li>
+                                        </ul>
+                                        <ul class="experience">
+                                            <li>
                                                 <h4>타코스</h4>
-                                                <p>-해외영업·메일링·바이어응대</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="period">
-                                                <p>2013. 10 - 2014. 09</p>
-                                            </div>
-                                            <div class="info comp">
+                                                <p>-해외영업 업무</p>
+                                                <p>-메일링·바이어응대</p>
+                                            </li>
+                                            <li>
                                                 <h4>뚜쥬르제과</h4>
-                                                <p>-매장 상품진열·고객응대</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="period">
-                                                <p>2014. 10 - 2021. 11</p>
-                                            </div>
-                                            <div class="info comp">
+                                                <p>-매장 상품진열</p>
+                                                <p>-고객응대</p>
+                                            </li>
+                                            <li>
                                                 <h4>한울림네트웍</h4>
-                                                <p>-전산지원·지표관리·민원케어</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="period">
-                                                <p>2022. 04 - 2022. 10</p>
-                                            </div>
-                                            <div class="info comp">
+                                                <p>-철거팀 전산지원</p>
+                                                <p>-해지방어율 지표관리</p>
+                                                <p>-고객 민원케어</p>
+                                            </li>
+                                            <li>
                                                 <h4>홀릭디자인</h4>
-                                                <p>-UI 디자인·퍼블리싱</p>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                                <p>-UI 디자인</p>
+                                                <p>-웹 퍼블리싱</p>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="right">
@@ -188,57 +194,55 @@
                                     <h3 class="subtitle">
                                         <img src="img/subtitle2.png" alt="education" /></h3>
                                     </h3>
-                                    <ul>
-                                        <li>
-                                            <div class="period">
-                                                <p>2003. 03 - 2006. 02</p>
-                                            </div>
-                                            <div class="info edu">
+                                    <div class="history">
+                                        <ul class="period">
+                                            <li>
+                                                <p>2003.03-2006.02</p>
+                                            </li>
+                                            <li>
+                                                <p>2006.03-2009.02</p>
+                                            </li>
+                                            <li>
+                                                <p>2009.03-2013.02</p>
+                                            </li>
+                                        </ul>
+                                        <ul class="experience">
+                                            <li>
                                                 <h4>동수영중학교</h4>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="period">
-                                                <p>2006. 03 - 2009. 02</p>
-                                            </div>
-                                            <div class="info edu">
+                                            </li>
+                                            <li>
                                                 <h4>동여자고등학교</h4>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="period">
-                                                <p>2009. 03 - 2013. 02</p>
-                                            </div>
-                                            <div class="info edu">
+                                            </li>
+                                            <li>
                                                 <h4>경성대학교</h4>
                                                 <p>-중어중문학과 전공</p>
                                                 <p>-국제무역학과 복수전공</p>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="card">
                                     <h3 class="subtitle">
                                         <img src="img/subtitle3.png" alt="certificate" /></h3>
                                     </h3>
-                                    <ul>
-                                        <li>
-                                            <div class="period">
-                                                <p>2020. 09</p>
-                                            </div>
-                                            <div class="info cert">
+                                    <div class="history">
+                                        <ul class="period">
+                                            <li>
+                                                <p>2020.09</p>
+                                            </li>
+                                            <li>
+                                                <p>2020.12</p>
+                                            </li>
+                                        </ul>
+                                        <ul class="experience">
+                                            <li>
                                                 <h4>웹디자인기능사</h4>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="period">
-                                                <p>2020. 12</p>
-                                            </div>
-                                            <div class="info cert">
+                                            </li>
+                                            <li>
                                                 <h4>그래픽스운용기능사</h4>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>

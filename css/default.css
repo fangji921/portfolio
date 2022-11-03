@@ -70,6 +70,14 @@ section{
     text-transform: uppercase;
     margin-bottom: 40px;
 }
+
+.sec-title>h3{
+    display: inline;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 800;
+}
 /* setting end */
 
 header{
@@ -141,7 +149,7 @@ header>.inner>.menu-btn.btn_on span:last-child{
 }
 /* header end */
 
-.menu-layer{
+.nav-layer{
     width: 100%;
     height: 100vh;
     display: none;
@@ -152,14 +160,14 @@ header>.inner>.menu-btn.btn_on span:last-child{
     left: 0px;
 }   
 
-.menu-layer>.menu-wrap{
+.nav-layer>.nav-wrap{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.menu-layer>.menu-wrap>li{
+.nav-layer>.nav-wrap>li{
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
@@ -168,7 +176,7 @@ header>.inner>.menu-btn.btn_on span:last-child{
     margin-bottom: 30px;
 }
 
-.menu-layer>.menu-wrap>li:last-child{
+.nav-layer>.nav-wrap>li:last-child{
     margin-bottom: 0px;
 }
 
@@ -181,7 +189,6 @@ main{
 
 main>.sec01{
     height: 100vh;
-    /* background-image: url(../img/doodle-bg.png); */
     background-size: contain;
     background-position: left;
     padding-top: 60px;
@@ -204,6 +211,41 @@ main>.sec01>.cont-wrap>.main-text{
     margin-bottom: 30px;
 }
 
+main>.sec01>.cont-wrap>.main-text>span{
+    display: block;
+    overflow: hidden;
+}
+
+main>.sec01>.cont-wrap>.main-text>.name{
+    position: relative;
+    display: inline-block;
+}
+
+main>.sec01>.cont-wrap>.main-text>.name>p{
+    position: relative;
+    z-index: 1000;
+}
+
+main>.sec01>.cont-wrap>.main-text>.name>svg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 500;
+}
+
+main>.sec01>.cont-wrap>.main-text>.name>svg .svg-elem-1 {
+    stroke-dashoffset: 1231.7464599609375px;
+    stroke-dasharray: 1231.7464599609375px;
+    transition: stroke-dashoffset 1.5s ease-out 0s;
+}
+
+main>.sec01>.cont-wrap>.main-text>.name>svg.active .svg-elem-1 {
+    stroke-dashoffset: 0;
+}
+
 main>.sec01>.cont-wrap>.img-box{
     width: 240px;
     border: 20px solid #fff;
@@ -224,12 +266,7 @@ main>.sec02>.inner{
 }
 
 main>.sec02>.inner>.cont-wrap>.sec-title>h3{
-    display: inline;
     background-image: url(../img/underline-short.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    font-weight: 800;
 }
 
 main>.sec02>.inner>.cont-wrap>.profile>.photo-cont{
@@ -302,9 +339,8 @@ main>.sec02>.inner>.cont-wrap>.profile>.photo-cont>.card>.info>p>span{
 main>.sec02>.inner>.cont-wrap>.profile>.text-list{
     width: calc(100% - 32px);
     margin: 0 auto;
-    padding: 0px 30px;
     box-sizing: border-box;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 main>.sec02>.inner>.cont-wrap>.profile>.text-list>li{
@@ -328,10 +364,6 @@ main>.sec02>.inner>.cont-wrap>.profile>.text-list>li>.check{
     background-size: cover;
 }
 
-main>.sec02>.inner>.cont-wrap>.info-cont>.left,
-main>.sec02>.inner>.cont-wrap>.info-cont>.right>.card:first-child{
-    margin-bottom: 40px;
-}
 
 main>.sec02>.inner>.cont-wrap>.info-cont .card{
     position: relative;
@@ -341,10 +373,15 @@ main>.sec02>.inner>.cont-wrap>.info-cont .card{
     box-sizing: border-box;
 }
 
+main>.sec02>.inner>.cont-wrap>.info-cont>.left,
+main>.sec02>.inner>.cont-wrap>.info-cont>.right>.card:first-child{
+    margin-bottom: 40px;
+}
+
 main>.sec02>.inner>.cont-wrap>.info-cont .card>.subtitle{
     height: 36px;
     position: absolute;
-    top: -15px;
+    top: -18px;
     left: 20px;
 }
 
@@ -352,41 +389,58 @@ main>.sec02>.inner>.cont-wrap>.info-cont .card>.subtitle>img{
     height: 100%;
 }
 
-main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li{
+main>.sec02>.inner>.cont-wrap>.info-cont .card>.history{
     display: flex;
     justify-content: left;
-    margin-bottom: 10px;
 }
 
-main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li:last-child{
-    margin-bottom: 0px;
-}
-
-main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.period{
-    font-size: 12px;
-    line-height: 20px;
-    font-family: "Noto Sans KR";
+main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.period{
     margin-right: 20px;
 }
 
-main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.period{
-    width: 110px;
-}
-
-main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.info>h4{
-    font-size: 16px;
+main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.period>li{
+    font-size: 12px;
     line-height: 20px;
-    font-weight: 800;
+    font-family: "Noto Sans KR";
     margin-bottom: 4px;
 }
 
-main>.sec02>.inner>.cont-wrap>.info-cont .card>ul>li>.info>p{
+main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.period>li:last-child{
+    margin-bottom: 0px;
+}
+
+main>.sec02>.inner>.cont-wrap>.info-cont>.left>.card>.history>.period>li,
+main>.sec02>.inner>.cont-wrap>.info-cont>.right>.card>.history>.period>li:last-child{
+    height: 58px;
+}
+
+main>.sec02>.inner>.cont-wrap>.info-cont>.left>.card>.history>.period>li:nth-child(3){
+    height: 76px;
+}
+
+main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.experience>li{
+    margin-bottom: 4px;
+}
+
+main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.experience>li:last-child{
+    margin-bottom: 0px;
+}
+
+main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.experience>li>h4{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+main>.sec02>.inner>.cont-wrap>.info-cont .card>.history>.experience>li>p{
     font-size: 14px;
     line-height: 18px;
     font-weight: 300;
 }
 
 /* section02 end */
+/* section03 start */
 
 main>.sec03>.inner{
     padding: 0px 16px;
@@ -394,11 +448,7 @@ main>.sec03>.inner{
 }
 
 main>.sec03>.inner>.cont-wrap>.sec-title h3{
-    display: inline;
     background-image: url(../img/underline-short.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
 }
 
 main>.sec03>.inner>.cont-wrap>.card-wrap{
@@ -493,11 +543,7 @@ main>.sec04>.inner{
 }
 
 main>.sec04>.inner>.cont-wrap>.sec-title h3{
-    display: inline;
     background-image: url(../img/underline-long.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
 }
 
 main>.sec04>.inner>.cont-wrap>.filter{
