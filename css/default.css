@@ -61,6 +61,7 @@ section{
     min-width: 288px;
     margin: 0 auto;
     box-sizing: border-box;
+    padding: 0px 16px;
 }
 
 .sec-title{
@@ -463,7 +464,6 @@ main>.sec03>.inner>.cont-wrap>.card-wrap>li{
     overflow: hidden;
     box-shadow: 1px 2px 3px rgba(0,0,0,0.25);
     margin-bottom: 30px;
-    margin-right: calc((100% - 300px - 32px));
     transition-duration: 0.5s;
 }
 
@@ -560,7 +560,6 @@ main>.sec04>.inner>.cont-wrap>.filter>li{
     text-transform: uppercase;
     margin-right: 20px;
     cursor: pointer;
-    /* transition-duration: 0.5s; */
 }
 
 main>.sec04>.inner>.cont-wrap>.filter>li:last-child{

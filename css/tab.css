@@ -169,7 +169,6 @@
 
     main>.sec03>.inner>.cont-wrap>.card-wrap>li{
         margin-bottom: 60px;
-        margin-right: unset;
     }
 
     main>.sec03>.inner>.cont-wrap>.card-wrap>li:nth-child(7),
@@ -220,8 +219,11 @@
         height: 40px;
     }
 
+    main>.sec04>.inner>.cont-wrap>.card-wrap{
+        justify-content: space-around;
+    }
+
     main>.sec04>.inner>.cont-wrap>.card-wrap>li{
-        margin-right: calc((100% - 640px - 48px));
         margin-bottom: 60px;
     }
 
@@ -249,7 +251,7 @@
 
     main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back{
         width: 290px;
-        height: 390px;
+        height: 414px;
     }
 
     main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back>.btn>li{
