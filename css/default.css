@@ -149,16 +149,17 @@ header>.inner>.menu-btn.btn_on span:last-child{
     transform: translateY(-10px) rotate(-135deg);
 }
 /* header end */
+/* nav-layer start */
 
 .nav-layer{
     width: 100%;
     height: 100vh;
     display: none;
-    z-index: 9000;
     background-color: #fff;
     position: absolute;
     top: 0px;
     left: 0px;
+    z-index: 9000;
 }   
 
 .nav-layer>.nav-wrap{
@@ -181,7 +182,7 @@ header>.inner>.menu-btn.btn_on span:last-child{
     margin-bottom: 0px;
 }
 
-/* menu-layer end */
+/* nav-layer end */
 
 main{
     position: relative;

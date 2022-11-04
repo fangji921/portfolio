@@ -20,7 +20,7 @@
     }
 
     /* header end */
-    /* menu-layer start */
+    /* nav-layer start */
 
     .nav-layer>.nav-wrap>li{
         font-size: 40px;
@@ -28,7 +28,7 @@
         margin-bottom: 40px;
     }
 
-    /* menu-layer end */
+    /* nav-layer end */
     /* section01 start */
 
     main>.sec01{

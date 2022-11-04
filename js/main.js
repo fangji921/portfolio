@@ -5,7 +5,7 @@ $(".menu-btn").on("click", function () {
     $("body").toggleClass("btn_on");
     $("header").toggleClass("btn_on");//헤더 그림자 사라짐
     $(this).toggleClass("btn_on");//버튼 변형
-    $(".menu-layer").fadeToggle(500);//메뉴레이어 페이드 이벤트
+    $(".nav-layer").fadeToggle(500);//메뉴레이어 페이드 이벤트
 })
 
 //섹션1 svg 이벤트
