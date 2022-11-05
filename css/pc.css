@@ -284,8 +284,6 @@
     }
 
     main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>p{
-        width: 220px;
-        height: 270px;
         font-size: 26px;
         line-height: 30px;
     }
@@ -343,16 +341,10 @@
         text-align: center;
     }
 
-    main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back{
-        width: 380px;
-        height: 532px;
-    }
-
     main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back>.btn>li{
         font-size: 26px;
         line-height: 30px;
-        width: 150px;
-        padding: 10px 0px;
+        padding: 8px 10px;
         border-radius: 50px;
         margin-bottom: 16px;
     }

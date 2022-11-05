@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     //스크롤 이벤트 작성
     //메뉴 클릭시 해당 영역에 도달!
-    
+
     //모바일,태블릿 ver
     $(".nav-layer li").on("click", function () {
 
@@ -13,7 +13,7 @@ $(document).ready(function(){
 
         $("html,body").stop().animate({
             "scrollTop": scrOffset
-        }, 800)
+        }, 1000)
 
     })
 
@@ -25,9 +25,17 @@ $(document).ready(function(){
 
         $("html,body").stop().animate({
             "scrollTop": scrOffset
-        }, 800)
+        }, 1000)
 
     })
 
+    //로고 클릭시 최상단으로 이동
+    $("header .logo").on("click",function(){
+
+        $("html,body").stop().animate({
+            "scrollTop" : 0
+        },1000)
+
+    })
 
 })

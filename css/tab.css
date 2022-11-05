@@ -192,8 +192,6 @@
     }
 
     main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>p{
-        width: 140px;
-        height: 184px;
         font-size: 22px;
         line-height: 26px;
     }
@@ -249,16 +247,10 @@
         text-align: center;
     }
 
-    main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back{
-        width: 290px;
-        height: 414px;
-    }
-
     main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back>.btn>li{
         font-size: 22px;
         line-height: 26px;
-        width: 130px;
-        padding: 6px 0px;
+        padding: 6px 8px;
         border-radius: 20px;
         margin-bottom: 10px;
     }

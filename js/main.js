@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     //메뉴버튼 클릭 이벤트
     $(".menu-btn").on("click", function () {
-        $("body").toggleClass("btn_on");
+        $("body").toggleClass("btn_on");//바디 고정
         $("header").toggleClass("btn_on"); //헤더 그림자 사라짐
         $(this).toggleClass("btn_on"); //버튼 변형
         $(".nav-layer").fadeToggle(500); //메뉴레이어 페이드 이벤트
