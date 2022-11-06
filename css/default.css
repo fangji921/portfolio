@@ -13,10 +13,11 @@ body{
     background-size: contain;
 }
 
-body.btn_on{
+/* body.btn_on{
     position: fixed;
+    left: 0px;
     top: 0px;
-}
+} */
 
 body::-webkit-scrollbar{
     width: 10px;
@@ -158,7 +159,6 @@ header>.inner>.menu-btn.btn_on span:last-child{
     display: none;
     background-color: #fff;
     position: absolute;
-    top: 0px;
     left: 0px;
     z-index: 9000;
 }   
@@ -592,10 +592,6 @@ main>.sec04>.inner>.cont-wrap>.card-wrap>li{
     box-shadow: 1px 2px 3px rgba(0,0,0,0.25);
     margin-bottom: 30px;
     transition-duration: 0.5s;
-}
-
-main>.sec04>.inner>.cont-wrap>.card-wrap>li.out{
-    display: none;
 }
 
 main>.sec04>.inner>.cont-wrap>.card-wrap>li.rotate{

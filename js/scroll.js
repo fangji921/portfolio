@@ -9,11 +9,18 @@ $(document).ready(function(){
         var i = $(this).index();
         var scrOffset = $(".scroll").eq(i).offset().top;
 
-        $(".nav-layer").fadeOut(500);
+        $(".nav-layer").fadeOut(500);//메뉴레이어 페이드 아웃
 
         $("html,body").stop().animate({
             "scrollTop": scrOffset
-        }, 1000)
+        }, 1000)//스크롤 자동이동
+
+
+        $("header").removeClass("btn_on"); //헤더 그림자 사라짐
+        $(".menu-btn").removeClass("btn_on"); //버튼 재변형
+        $("body").css({
+            "position": "static"
+        });//바디 고정 해제
 
     })
 
@@ -25,7 +32,7 @@ $(document).ready(function(){
 
         $("html,body").stop().animate({
             "scrollTop": scrOffset
-        }, 1000)
+        }, 1000)//스크롤 자동이동
 
     })
 
@@ -35,6 +42,7 @@ $(document).ready(function(){
         $("html,body").stop().animate({
             "scrollTop" : 0
         },1000)
+
 
     })
 
