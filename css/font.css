@@ -1,4 +1,28 @@
 @font-face {
+    font-family : '양진체';
+    src: url("../font/yangjin.ttf") format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family : 'G마켓 산스 TTF Light';
+    src: url("../font/GmarketSansTTFLight.ttf") format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family : 'G마켓 산스 TTF Regular';
+    src: url("../font/GmarketSansTTFRegular.ttf") format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family : 'G마켓 산스 TTF Bold';
+    src: url("../font/GmarketSansTTFBold.ttf") format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
     font-family : 'Noto Sans KR';
     src: url("../font/NotoSansKR-Regular.otf") format('opentype');
     font-weight: 300;

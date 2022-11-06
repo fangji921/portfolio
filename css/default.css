@@ -13,12 +13,6 @@ body{
     background-size: contain;
 }
 
-/* body.btn_on{
-    position: fixed;
-    left: 0px;
-    top: 0px;
-} */
-
 body::-webkit-scrollbar{
     width: 10px;
 }
@@ -207,29 +201,44 @@ main>.sec01>.cont-wrap{
     align-items: center;
 }
 
-main>.sec01>.cont-wrap>.main-text{
+main>.sec01>.cont-wrap>.text-wrap>.sub-text{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+main>.sec01>.cont-wrap>.text-wrap>.line{
+    width: 20px;
+    height: 2px;
+    background-color: #121212;
+    margin: 20px 0px 10px;
+}
+
+main>.sec01>.cont-wrap>.text-wrap>.main-text{
     font-size: 40px;
     line-height: 70px;
-    font-weight: 900;
     margin-bottom: 30px;
+    font-family : 'G마켓 산스 TTF Light';
 }
 
-main>.sec01>.cont-wrap>.main-text>span{
-    display: block;
-    overflow: hidden;
+main>.sec01>.cont-wrap>.text-wrap>.main-text>b{
+    font-family : 'G마켓 산스 TTF Regular';
 }
 
-main>.sec01>.cont-wrap>.main-text>.name{
+main>.sec01>.cont-wrap>.text-wrap>.main-text>.name{
     position: relative;
     display: inline-block;
 }
 
-main>.sec01>.cont-wrap>.main-text>.name>p{
+main>.sec01>.cont-wrap>.text-wrap>.main-text>.name>p{
+    font-size: 48px;
+    font-family : 'G마켓 산스 TTF Bold';
+    color: #121212;
+    text-shadow: none;
     position: relative;
     z-index: 1000;
 }
 
-main>.sec01>.cont-wrap>.main-text>.name>svg{
+main>.sec01>.cont-wrap>.text-wrap>.main-text>.name>svg{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -239,17 +248,17 @@ main>.sec01>.cont-wrap>.main-text>.name>svg{
     z-index: 500;
 }
 
-main>.sec01>.cont-wrap>.main-text>.name>svg .svg-elem-1 {
+main>.sec01>.cont-wrap>.text-wrap>.main-text>.name>svg .svg-elem-1 {
     stroke-dashoffset: 1231.7464599609375px;
     stroke-dasharray: 1231.7464599609375px;
-    transition: stroke-dashoffset 1.5s ease-out 0s;
+    transition: stroke-dashoffset 1.5s ease-out 1s;
 }
 
-main>.sec01>.cont-wrap>.main-text>.name>svg.active .svg-elem-1 {
+main>.sec01>.cont-wrap>.text-wrap>.main-text>.name>svg.active .svg-elem-1 {
     stroke-dashoffset: 0;
 }
 
-main>.sec01>.cont-wrap>.img-box{
+main>.sec01>.cont-wrap>.img-wrap>.img-box{
     width: 240px;
     border: 20px solid #fff;
     box-sizing: border-box;
@@ -257,7 +266,7 @@ main>.sec01>.cont-wrap>.img-box{
     transform: rotate(-4deg);
 }
 
-main>.sec01>.cont-wrap>.img-box>img{
+main>.sec01>.cont-wrap>.img-wrap>.img-box>img{
     width: 100%;
     display: block;
 }
@@ -479,8 +488,7 @@ main>.sec03>.inner>.cont-wrap>.card-wrap>li:last-child{
 }
 
 main>.sec03>.inner>.cont-wrap>.card-wrap>li.rotate{
-    transform: scale(1.05) translateY(-30px) rotateY(180deg);
-    box-shadow: -10px 15px 24px rgba(0,0,0,0.12);
+    transform: rotateY(180deg);
     z-index: 5000;
 }
 
@@ -595,8 +603,7 @@ main>.sec04>.inner>.cont-wrap>.card-wrap>li{
 }
 
 main>.sec04>.inner>.cont-wrap>.card-wrap>li.rotate{
-    transform: scale(1.05) translateY(-30px) rotateY(180deg);
-    box-shadow: -10px 15px 24px rgba(0,0,0,0.12);
+    transform: rotateY(180deg);
     z-index: 5000;
 }
 

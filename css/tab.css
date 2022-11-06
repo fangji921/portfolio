@@ -31,25 +31,30 @@
     /* nav-layer end */
     /* section01 start */
 
-    main>.sec01{
-        padding-top: 80px;
-    }
-
     main>.sec01>.cont-wrap{
         width: 100%;
-        height: calc(100vh - 80px);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    main>.sec01>.cont-wrap>.main-text{
-        font-size: 70px;
-        line-height: 120px;
+    main>.sec01>.cont-wrap>.text-wrap>.sub-text{
+        font-size: 22px;
+        line-height: 26px;
     }
 
-    main>.sec01>.cont-wrap>.img-box{
+    main>.sec01>.cont-wrap>.text-wrap>.main-text{
+        font-size: 70px;
+        line-height: 100px;
+        margin-bottom: 10px;
+    }
+
+    main>.sec01>.cont-wrap>.text-wrap>.main-text>.name>p{
+        font-size: 80px;
+    }
+    
+    main>.sec01>.cont-wrap>.img-wrap>.img-box{
         width: 320px;
         border: 20px solid #fff;
         box-sizing: border-box;

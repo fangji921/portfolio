@@ -1,7 +1,9 @@
 $(document).ready(function () {
 
+    AOS.init();//AOS 이벤트 셋팅
+
     //햄버거 버튼 클릭 이벤트
-    var i =0;
+    var i = 0;
     $(".menu-btn").on("click", function () {
         var winScr = $(window).scrollTop();
         $("header").toggleClass("btn_on"); //헤더 그림자 사라짐
