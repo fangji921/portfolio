@@ -54,7 +54,7 @@ section{
 }
 
 .inner{
-    min-width: 288px;
+    min-width: 200px;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0px 16px;
@@ -81,7 +81,7 @@ header{
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 10000;
+    z-index: 9000;
     background-color: #fff;
     box-shadow: 0px 2px 3px rgba(0,0,0,0.25);
     transition-duration: 0.5s;
@@ -154,7 +154,7 @@ header>.inner>.menu-btn.btn_on span:last-child{
     background-color: #fff;
     position: absolute;
     left: 0px;
-    z-index: 9000;
+    z-index: 8000;
 }   
 
 .nav-layer>.nav-wrap{
@@ -178,6 +178,7 @@ header>.inner>.menu-btn.btn_on span:last-child{
 }
 
 /* nav-layer end */
+/* section01 start */
 
 main{
     position: relative;
@@ -473,7 +474,6 @@ main>.sec03>.inner>.cont-wrap>.card-wrap>li{
     position: relative;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 1px 2px 3px rgba(0,0,0,0.25);
     margin-bottom: 30px;
     transition-duration: 0.5s;
 }
@@ -597,7 +597,6 @@ main>.sec04>.inner>.cont-wrap>.card-wrap{
 
 main>.sec04>.inner>.cont-wrap>.card-wrap>li{
     position: relative;
-    box-shadow: 1px 2px 3px rgba(0,0,0,0.25);
     margin-bottom: 30px;
     transition-duration: 0.5s;
 }
@@ -668,12 +667,14 @@ main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back>.btn>li{
     box-sizing: border-box;
     border: 1px solid #555;
     border-radius: 14px;
-    margin-bottom: 6px;
+    background-color: transparent;
 }
 
-main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back>.btn>li:last-child{
-    margin-bottom: 0px;
+main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back>.btn.ready>li{
+    background-color: #555;
+    color: #fff;
 }
+
 
 /* section04 end */
 /* footer start */
@@ -723,3 +724,8 @@ footer>.ft-btm>.inner>.text{
 }
 
 /* footer end */
+/* 
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+
+} */

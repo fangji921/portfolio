@@ -54,5 +54,9 @@ $(document).ready(function () {
         $(this).toggleClass("rotate").siblings().removeClass("rotate"); //카드 turn
     });
 
+    //섹션4 프로젝트 클로즈 버튼 이벤트
+    $(".project-bg .close").on("click",function(){
+        $(".project-bg").hide();
+    })
 
 });
