@@ -519,6 +519,7 @@ main>.sec03>.inner>.cont-wrap>.card-wrap>li>.front>p{
     text-transform: capitalize;
 }
 
+
 main>.sec03>.inner>.cont-wrap>.card-wrap>li:first-child>.front>p,
 main>.sec03>.inner>.cont-wrap>.card-wrap>li:nth-child(2)>.front>p{
     text-transform: uppercase;
@@ -535,6 +536,24 @@ main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back{
     padding: 20px;
     box-sizing: border-box;
     background-color: rgba(255,255,255,0.8);
+}
+
+main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>.star{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>.star>li{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/star-colored.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>.star>li.lined{
+    background-image: url(../img/star-lined.png);
 }
 
 main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>p{
