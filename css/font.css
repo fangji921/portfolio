@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family : 'G마켓 산스 TTF Regular';
-    src: url("../font/GmarketSansTTFRegular.ttf") format('truetype');
+    font-family : 'G마켓 산스 TTF Medium';
+    src: url("../font/GmarketSansTTFMedium.ttf") format('truetype');
     font-weight: 500;
 }
 
