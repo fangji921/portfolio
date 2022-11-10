@@ -303,6 +303,11 @@
         padding: 30px;
     }
 
+    main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>.star>li{
+        width: 30px;
+        height: 30px;
+    }
+
     main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>p{
         font-size: 26px;
         line-height: 30px;

@@ -192,13 +192,18 @@
     }
 
     main>.sec03>.inner>.cont-wrap>.card-wrap>li>.front>p{
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>.star>li{
+        width: 22px;
+        height: 22px;
     }
 
     main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>p{
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 24px;
     }
 
     /* section03 end */

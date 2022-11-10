@@ -541,12 +541,12 @@ main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back{
 main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>.star{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>.star>li{
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     background-image: url(../img/star-colored.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -557,8 +557,9 @@ main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>.star>li.lined{
 }
 
 main>.sec03>.inner>.cont-wrap>.card-wrap>li>.back>p{
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: justify;
 }
 
 main>.sec03>.inner>.cont-wrap>.card-wrap>li.rotate>.back{
@@ -679,14 +680,19 @@ main>.sec04>.inner>.cont-wrap>.card-wrap>li.rotate>.back{
 }
 
 main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back>.btn>li{
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 16px;
     text-align: center;
     padding: 4px 6px;
     box-sizing: border-box;
     border: 1px solid #555;
     border-radius: 14px;
     background-color: transparent;
+    margin-bottom: 6px;
+}
+
+main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back>.btn>li:last-child{
+    margin-bottom: 0px;
 }
 
 main>.sec04>.inner>.cont-wrap>.card-wrap>li>.back>.btn.ready>li{
