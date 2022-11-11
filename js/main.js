@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    AOS.init();//AOS 이벤트 셋팅
+    AOS.init(); //AOS 이벤트 셋팅
 
     //햄버거 버튼 클릭 이벤트
     var i = 0;
@@ -35,8 +35,10 @@ $(document).ready(function () {
         $(this).toggleClass("rotate").siblings().removeClass("rotate"); //카드 turn
     })
 
-    //섹션3,4 인포icon 클릭 이벤트(pc)
-    
+    //섹션3,4 인포icon 클릭 이벤트
+    $(".sec03 .info-ic, .sec04 .info-ic").on("click", function () {
+        $(this).find(".tool-tip").toggleClass("active");
+    })
 
     //섹션4 필터클릭 이벤트
     $(".sec04 .filter>li").on("click", function () {
@@ -58,7 +60,7 @@ $(document).ready(function () {
     });
 
     //섹션4 프로젝트 클로즈 버튼 이벤트
-    $(".project-bg .close").on("click",function(){
+    $(".project-bg .close").on("click", function () {
         $(".project-bg").hide();
     })
 

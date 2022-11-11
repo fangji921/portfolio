@@ -491,6 +491,10 @@ main>.sec03>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip{
     opacity: 0;
 }
 
+main>.sec03>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip.active{
+    top: 12px;
+    opacity: 1;
+}
 
 main>.sec03>.inner>.cont-wrap>.card-wrap{
     display: flex;
@@ -619,6 +623,7 @@ main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic>img{
     width: 24px;
     height: 24px;
     position: relative;
+    display: block;
 }
 
 main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip{
@@ -630,10 +635,10 @@ main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip{
     opacity: 0;
 }
 
-/* main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic:hover>.tool-tip{
+main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip.active{
     top: 12px;
     opacity: 1;
-} */
+}
 
 main>.sec04>.inner>.cont-wrap>.filter{
     display: flex;

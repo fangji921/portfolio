@@ -263,7 +263,7 @@
         padding: unset;
     }
 
-    main>.sec03>.inner>.cont-wrap>.sec-title>.info-ic:hover>.tool-tip{
+    main>.sec03>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip.active{
         top: 12px;
         opacity: 1;
     }
@@ -324,7 +324,7 @@
         padding: unset;
     }
 
-    main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic.active>.tool-tip{
+    main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip.active{
         top: 12px;
         opacity: 1;
     }
