@@ -460,9 +460,37 @@ main>.sec03>.inner{
     box-sizing: border-box;
 }
 
-main>.sec03>.inner>.cont-wrap>.sec-title h3{
-    background-image: url(../img/underline-short.png);
+main>.sec03>.inner>.cont-wrap>.sec-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+main>.sec03>.inner>.cont-wrap>.sec-title h3{
+    background-image: url(../img/underline-long.png);
+    margin-right: 10px;
+}
+
+main>.sec03>.inner>.cont-wrap>.sec-title>.info-ic{
+    position: relative;
+}
+
+main>.sec03>.inner>.cont-wrap>.sec-title>.info-ic>img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    display: block;
+}
+
+main>.sec03>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip{
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    transform: translate(-50%, -100%);
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+
 
 main>.sec03>.inner>.cont-wrap>.card-wrap{
     display: flex;
@@ -572,9 +600,40 @@ main>.sec04>.inner{
     box-sizing: border-box;
 }
 
+main>.sec04>.inner>.cont-wrap>.sec-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main>.sec04>.inner>.cont-wrap>.sec-title h3{
     background-image: url(../img/underline-long.png);
+    margin-right: 10px;
 }
+
+main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic{
+    position: relative;
+}
+
+main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic>img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip{
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    transform: translate(-50%, -100%);
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+
+/* main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic:hover>.tool-tip{
+    top: 12px;
+    opacity: 1;
+} */
 
 main>.sec04>.inner>.cont-wrap>.filter{
     display: flex;

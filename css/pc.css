@@ -263,6 +263,11 @@
         padding: unset;
     }
 
+    main>.sec03>.inner>.cont-wrap>.sec-title>.info-ic:hover>.tool-tip{
+        top: 12px;
+        opacity: 1;
+    }
+
     main>.sec03>.inner>.cont-wrap>.card-wrap{
         justify-content: space-around;
         padding: 0px 80px;
@@ -272,7 +277,6 @@
         margin-bottom: 120px;
         transition-duration: 0.5s;
     }
-    
     
     main>.sec03>.inner>.cont-wrap>.card-wrap>li:hover{
         box-shadow: 3px 3px 4px rgba(0,0,0,0.15);
@@ -318,6 +322,11 @@
 
     main>.sec04>.inner{
         padding: unset;
+    }
+
+    main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic.active>.tool-tip{
+        top: 12px;
+        opacity: 1;
     }
 
     main>.sec04>.inner>.cont-wrap>.filter{

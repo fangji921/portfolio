@@ -35,6 +35,9 @@ $(document).ready(function () {
         $(this).toggleClass("rotate").siblings().removeClass("rotate"); //카드 turn
     })
 
+    //섹션3,4 인포icon 클릭 이벤트(pc)
+    
+
     //섹션4 필터클릭 이벤트
     $(".sec04 .filter>li").on("click", function () {
         $(this).addClass("pressed").siblings().removeClass("pressed"); //필터 색연필 효과
