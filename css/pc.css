@@ -48,7 +48,6 @@
         height: 80px;
     }
 
-
     header>.inner>.menu-wrap{
         width: 100%;
         display: flex;
@@ -263,11 +262,6 @@
         padding: unset;
     }
 
-    main>.sec03>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip.active{
-        top: 12px;
-        opacity: 1;
-    }
-
     main>.sec03>.inner>.cont-wrap>.card-wrap{
         justify-content: space-around;
         padding: 0px 80px;
@@ -322,11 +316,6 @@
 
     main>.sec04>.inner{
         padding: unset;
-    }
-
-    main>.sec04>.inner>.cont-wrap>.sec-title>.info-ic>.tool-tip.active{
-        top: 12px;
-        opacity: 1;
     }
 
     main>.sec04>.inner>.cont-wrap>.filter{
